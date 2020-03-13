@@ -1,17 +1,21 @@
-# Задача 1
-'''
+print('Задача 1 :')
+
 names = ['Оля', 'Петя', 'Вася', 'Маша']
 for name in names:
-    #print(name)
-'''  
-# Задача 2
-'''  
+    print(name)
+
+print('---------------------------')
+print('Задача 2 :')
+
+
 names = ['Оля', 'Петя', 'Вася', 'Маша']
 for name in names:
-    #print(f'{name}, Колличество букв в имени: {len(name)}')
-'''
-# Задача 3
-'''
+    print(f'{name}, Колличество букв в имени: {len(name)}')
+
+print('---------------------------')
+print('Задача 3 :')
+
+
 is_male = {
   'Оля': False,  # если True, то пол мужской
   'Петя': True,
@@ -26,9 +30,9 @@ for name in names:
            print(f'{name} Пол ЖЕН')
         else:
             print(f'{name} Пол МУЖ')
-'''
-'''
-#Задача 4
+
+print('---------------------------')
+print('Задача 4 :')
 
 
 groups = [
@@ -36,16 +40,17 @@ groups = [
   ['Оля', 'Петя', 'Гриша'] 
 ]
 
-for a in groups:
-    print(f'В группе {len(a)} ученика')
+group1 = 0
+for group in groups:
+    group1 +=1
+    print(f'В группе {group1}: {len(group)} ученика')
 
-#print(f'Всего групп: {len(groups)}')
-#print (f'В группе {len(groups[0])} Ученика')
-#print (f'В группе {len(groups[1])} Ученика')
+print(f'Всего групп: {group1}')
 
-'''
 
-#Задача 5
+print('---------------------------')
+print('Задача 5 :')
+
 
 groups = [
   ['Вася', 'Маша'],
